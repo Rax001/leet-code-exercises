@@ -1,4 +1,4 @@
-import { mergeSort } from './mergeSort.js'
+import { mergeSort } from '../sort-algors/mergeSort.js';
 
 function threeSum(nums) {
     nums = mergeSort(nums, 0, nums.length - 1);
